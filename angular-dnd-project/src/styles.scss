@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "Malibu"; 
+    // адрес шрифта и тип 
+    src: url("./assets/1-malibu-let-let-plain10.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

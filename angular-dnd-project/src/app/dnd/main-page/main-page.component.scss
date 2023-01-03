@@ -1,0 +1,30 @@
+.dnd-main-page{
+    height: 817px;
+    background-image: url("./assets/dnd-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content{
+        color: azure;
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+        font-family: "Malibu";
+
+        &__text{
+            font-size: 35px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        &__big-text{
+            font-size: 70px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.empty{
+    height: 1px;
+}
